@@ -5,9 +5,9 @@
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=2E6DA4&center=true&vCenter=true&width=700&lines=Senior+Penetration+Tester+%7C+5%2B+Years;Web+%26+API+Security+Specialist;200%2B+Vulnerabilities+Discovered;Application+Security+Engineer)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
-[![Location](https://img.shields.io/badge/Location-Pune%2C%20India-FF6B6B?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/dheeraj-pentest)
-[![Experience](https://img.shields.io/badge/Experience-15%2B%20Years%20in%20IT-2E6DA4?style=for-the-badge&logo=buffer&logoColor=white)](https://github.com/dheeraj-pentest)
-[![Cert](https://img.shields.io/badge/CEH-EC--Council%20Certified-darkgreen?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/dheeraj-pentest)
+[![Location](https://img.shields.io/badge/Location-Pune%2C%20India-FF6B6B?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/dheeraj-jayasswal)
+[![Experience](https://img.shields.io/badge/Experience-15%2B%20Years%20in%20IT-2E6DA4?style=for-the-badge&logo=buffer&logoColor=white)](https://github.com/dheeraj-jayasswal)
+[![Cert](https://img.shields.io/badge/CEH-EC--Council%20Certified-darkgreen?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/dheeraj-jayasswal)
 
 </div>
 
