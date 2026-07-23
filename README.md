@@ -1,13 +1,12 @@
-# 🛡️ AppSec From The Trenches
-
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=2E6DA4&center=true&vCenter=true&width=700&lines=Senior+Penetration+Tester+%7C+5%2B+Years;Web+%26+API+Security+Specialist;200%2B+Vulnerabilities+Discovered;Application+Security+Engineer)
+# 🛡️ AppSec From The Trenches
+### Pentest Tools & Methodology Reference
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 [![Location](https://img.shields.io/badge/Location-Pune%2C%20India-FF6B6B?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/dheeraj-jayaswal)
-[![Experience](https://img.shields.io/badge/Experience-15%2B%20Years%20in%20IT-2E6DA4?style=for-the-badge&logo=buffer&logoColor=white)](https://github.com/dheeraj-jayaswal)
-[![Cert](https://img.shields.io/badge/CEH-EC--Council%20Certified-darkgreen?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/dheeraj-jayaswal)
+[![Experience](https://img.shields.io/badge/Experience-15%2B%20Years%20IT-2ECC71?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
+[![Cert](https://img.shields.io/badge/CEH--EC--Council%20Certified-darkgreen?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
 
 </div>
 
@@ -19,112 +18,73 @@ I'm **Dheeraj Kumar Jayaswal** — a Senior Penetration Tester and Application S
 
 What makes my perspective different: I started as a full-stack software developer. I've built enterprise applications in ASP.NET, designed SQL Server databases, and written the kind of code that attackers target. That developer background is my biggest advantage — I find vulnerabilities that pure security testers miss because I understand *why* the code was written the way it was, not just *that* it can be exploited.
 
-Currently at **Infosys Limited** as Technology Lead – Offensive Security, where I've discovered **200+ critical and high vulnerabilities** across enterprise web applications and APIs.
+Currently at **Infosys Limited** as Technology Lead – Offensive Security.
 
 ---
 
-## 📌 What Is This Repository?
+## 📌 What This Repository Actually Is
 
-This is my personal knowledge base — real notes, techniques, and findings from **5+ years of professional penetration testing** across enterprise environments.
+This repo is my **practical tools and methodology reference** — how I actually use the tools that show up in every enterprise engagement, plus the overarching testing methodology that ties them together. It's the repo I use myself as a quick-reference during an engagement, not a theory guide.
 
-Every write-up in this repository covers a vulnerability I have personally exploited in real engagements (sanitised and anonymised). This is not a copy-paste of theory. These are the notes I wish I had when I started.
+It also includes a set of **short vulnerability quick-reference notes** — but for the full, in-depth write-ups on *why* each vulnerability class exists and how it plays out across different industries, those live in my other repos (see below). This repo's job is tools and workflow; the deep dives live elsewhere.
 
-Each topic includes:
+---
 
-| Section | What you'll find |
+## 🧭 How This Fits With My Other Repos
+
+| Repo | What it's for |
 |---|---|
-| 🔍 **What it is** | Plain-English explanation of the vulnerability |
-| 🌱 **Why it exists** | The root cause — developer mistake, framework gap, or design flaw |
-| ⚔️ **How to find it** | Reconnaissance and discovery methodology |
-| 💥 **How to exploit it** | Step-by-step with real tool commands |
-| 📋 **How to report it** | Severity rating, impact statement, remediation guidance |
+| **AppSec-From-The-Trenches** *(this repo)* | Tool usage guides, pentest methodology, and short vulnerability quick-reference notes |
+| [From-Dev-To-Attacker](https://github.com/dheeraj-jayaswal/From-Dev-To-Attacker) | Full-depth original write-ups on *why* vulnerabilities exist, from a developer's lens, with enterprise domain-impact framing |
+| [API-From-The-Trenches](https://github.com/dheeraj-jayaswal/API-From-The-Trenches) | Deep dive specifically into API security — OWASP API Top 10, GraphQL, BOLA, testing methodology |
+| [Bug-Bounty-Hunting-Companion](https://github.com/dheeraj-jayaswal/Bug-Bounty-Hunting-Companion) | Real disclosed HackerOne reports turned into reproducible checklists |
 
 ---
 
-## 🗂️ Topics Covered
+## 🛠️ Tool Usage Guides
 
-### 💉 Injection Attacks
-- SQL Injection (Error-based, Union-based, Blind, Time-based)
-- SSRF — Server-Side Request Forgery
-- XSS — Reflected, Stored, DOM-based
-- Command Injection via unvalidated inputs
+The core of this repo — how I actually run each of these tools in a real engagement, not just the man-page basics.
 
-### 🔐 Authentication & Access Control
-- Authentication Bypass techniques
-- IDOR — Insecure Direct Object Reference
-- Broken Access Control & Privilege Escalation
-- Session Management flaws
-- JWT attacks and misconfigurations
-
-### 🌐 API Security
-- REST API common vulnerabilities
-- GraphQL security testing
-- API authentication testing (OAuth, API Keys, Bearer tokens)
-- Mass Assignment & parameter tampering
-- Rate limiting bypass techniques
-
-### 🔍 Recon & Discovery
-- Subdomain enumeration methodology
-- Directory and file bruteforcing
-- JavaScript endpoint extraction
-- Hidden parameter discovery
-- Source map exposure
-
-### 🏗️ Application Architecture Flaws
-- Remote Code Execution via chained exploits
-- File upload bypass techniques
-- Path traversal and LFI
-- Business logic vulnerabilities
-- CORS misconfiguration
-
-### 🔧 DevSecOps & Secure SDLC
-- Integrating SAST into CI/CD pipelines
-- DAST testing with OWASP ZAP and Burp
-- Secure code review methodology
-- Threat modelling for microservices
-
----
-
-## 📊 By The Numbers
-
-```
-Experience        ████████████████████████████████  15+ years IT | 5+ years AppSec
-Vulnerabilities   ████████████████████████████████  200+ discovered across enterprises
-Applications      ████████████████████████          20+ enterprise apps tested
-Severity Split    CRITICAL ████████  HIGH ████████████████  MEDIUM ████████
-```
-
-| Metric | Count |
+| Category | Tools |
 |---|---|
-| Enterprise applications tested | 20+ |
-| Critical / High vulnerabilities found | 200+ |
-| Engineers mentored | 15+ |
-| Recurring vulns eliminated via DevSecOps | 50% reduction |
-| External attack surface reduced | 35% |
+| **Web & API Testing** | [Burp-Suites.md](Burp-Suites.md) · [OWASP-ZAP.md](OWASP-ZAP.md) · [Postman.md](Postman.md) · [FFUF.md](FFUF.md) · [CURL.md](CURL.md) |
+| **Injection & Vulnerability Scanning** | [SQLMap.md](SQLMap.md) · [Nikto.md](Nikto.md) · [Nuclei.md](Nuclei.md) |
+| **Network & Infrastructure** | [NMAP.md](NMAP.md) · [Nessus.md](Nessus.md) · [Metasploit.md](Metasploit.md) · [NetCat-NC.md](NetCat-NC.md) · [WireShark.md](WireShark.md) |
+| **Password & Credential Testing** | [Hydra.md](Hydra.md) · [HashCat.md](HashCat.md) · [John.md](John.md) |
+| **OSINT & Recon** | [OSINT & Recon-ng.md](OSINT%20%26%20Recon-ng.md) |
 
 ---
 
-## 🛠️ Tools I Work With
+## 📐 Methodology & Recon
 
-**Web & API Testing**
-```
-Burp Suite Pro    SQLMap    ffuf    Nuclei    Nikto    Gobuster    Amass    Subfinder
-```
+| Topic | File |
+|---|---|
+| Web Application Pentest Methodology | [WAPT-Methodology.md](WAPT-Methodology.md) |
+| Bug Bounty Recon Workflow | [Bug-Bounty-Recon.md](Bug-Bounty-Recon.md) |
+| Directory & File Enumeration | [Directory-Enumeration.md](Directory-Enumeration.md) |
+| OWASP Top 10 Reference | [OWASP-Top10.md](OWASP-Top10.md) |
 
-**Network & Infrastructure**
-```
-Nmap    Nessus    Metasploit    Netcat    Wireshark
-```
+---
 
-**Password & Credential Testing**
-```
-Hydra    John the Ripper    Hashcat
-```
+## 📋 Vulnerability Quick-Reference
 
-**DevSecOps**
-```
-SonarQube    OWASP ZAP    Burp Suite    GitHub Actions    CI/CD Pipeline Integration
-```
+Short-form notes for fast recall during an engagement. For the full write-up on any of these — including *why* the vulnerability exists and how its impact plays out across different industries — see [From-Dev-To-Attacker](https://github.com/dheeraj-jayaswal/From-Dev-To-Attacker).
+
+| Topic | File |
+|---|---|
+| Broken Authentication | [Broken-Authentication.md](Broken-Authentication.md) |
+| CSRF | [CSRF.md](CSRF.md) |
+| Cookie Security | [Cookie-Security.md](Cookie-Security.md) |
+| IDOR | [IDOR.md](IDOR.md) |
+| Insecure Deserialization | [Insecure-Deserialization.md](Insecure-Deserialization.md) |
+| JWT Attacks | [JWT-Attacks.md](JWT-Attacks.md) |
+| Path Traversal | [Path-Traversal.md](Path-Traversal.md) |
+| SQL Injection | [SQL-Injection.md](SQL-Injection.md) |
+| SSRF | [SSRF.md](SSRF.md) |
+| Security Headers | [Security-Headers.md](Security-Headers.md) |
+| Security Misconfiguration | [Security-Misconfiguration.md](Security-Misconfiguration.md) |
+| Sensitive Data Exposure | [Sensitive-Data-Exposure.md](Sensitive-Data-Exposure.md) |
+| XSS | [XSS.md](XSS.md) |
 
 ---
 
@@ -134,78 +94,40 @@ SonarQube    OWASP ZAP    Burp Suite    GitHub Actions    CI/CD Pipeline Integra
 
 I approach every engagement in three phases:
 
-**1. Understand before you attack**
-Read the application. Use it as a real user. Understand the business logic before touching a single tool.
+**1. Understand before you attack** — Read the application. Use it as a real user. Understand the business logic before touching a single tool.
 
-**2. Manual first, tools second**
-Automated scanners find what they're configured to find. The interesting bugs — the ones that make it into CVEs and hall-of-fames — are always found by thinking, not scanning.
+**2. Manual first, tools second** — Automated scanners find what they're configured to find. The interesting bugs are always found by thinking, not scanning.
 
-**3. Report like a developer**
-A finding that developers can't understand or reproduce is a finding that doesn't get fixed. I write reports that bridge the gap between security and engineering teams.
+**3. Report like a developer** — A finding that developers can't understand or reproduce is a finding that doesn't get fixed.
 
 ---
 
-## 📚 Currently Learning
+## 🏅 Certifications & Background
 
-- 🎯 **OSCP** — Pursuing certification (2025–2026)
-- 🏫 **IIT Kanpur** — Executive Certificate Program in Cyber Security (2025–2026)
-- 🧩 **PortSwigger Web Security Academy** — Advanced labs
-
----
-
-## 🏅 Certifications
-
-| Certification | Issuer | Year |
+| Certification | Issuer | Status |
 |---|---|---|
-| OSCP — Offensive Security Certified Professional | OffSec | In Progress |
+| OSCP — Offensive Security Certified Professional | OffSec | In Progress (2025–2026) |
 | Certified Ethical Hacker (CEH) | EC-Council | 2021 |
 | AWS Certified Solutions Architect – Associate | Amazon Web Services | 2022 |
 | AWS Certified Cloud Practitioner | Amazon Web Services | 2022 |
+| Executive Certificate in Cyber Security | IIT Kanpur | In Progress (2025–2026) |
+
+**Domain experience:** Income Tax · Banking · Retail · E-commerce · Freight Logistics · Education
 
 ---
 
-## 📂 Repository Structure
+## 📄 License
 
-```
-AppSec-From-The-Trenches/
-│
-├── README.md                          ← You are here
-│
-├── web-application/
-│   ├── SQL_Injection_exploitation.md
-│   ├── IDOR_real_world_scenarios.md
-│   ├── SSRF_to_internal_access.md
-│   ├── Auth_bypass_techniques.md
-│   └── RCE_via_chained_exploits.md
-│
-├── api-security/
-│   ├── REST_API_common_vulns.md
-│   ├── GraphQL_security_testing.md
-│   └── API_auth_testing_checklist.md
-│
-├── recon-methodology/
-│   ├── Subdomain_enumeration.md
-│   ├── Directory_bruteforce.md
-│   └── JS_endpoint_extraction.md
-│
-├── pentest-methodology/
-│   └── Web_app_pentest_checklist.md
-│
-└── report-templates/
-    └── Pentest_finding_template.md
-```
+This content is licensed under **[CC BY 4.0](LICENSE.md)**. You're welcome to
+reuse or adapt any of these notes — just give clear attribution to
+**Dheeraj Kumar Jayaswal** with a link back to this repository. See
+[LICENSE.md](LICENSE.md) for the full terms.
 
 ---
 
 ## 🤝 Connect With Me
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
-
-*Open to consulting, collaboration, and security discussions.*
-
-</div>
+[LinkedIn](https://linkedin.com/in/dheerajkumarjayaswal) — open to consulting, collaboration, and security discussions.
 
 ---
 
@@ -213,6 +135,6 @@ AppSec-From-The-Trenches/
 
 *Security is not a product. It is a mindset built one vulnerability at a time.*
 
-**#AppSec · #PenTest · #WebSecurity · #APISecuity · #OffensiveSecurity**
+**#AppSec · #PenTest · #WebSecurity · #APISecurity · #OffensiveSecurity**
 
 </div>
