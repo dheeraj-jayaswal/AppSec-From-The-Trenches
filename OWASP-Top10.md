@@ -206,3 +206,12 @@ grep -r "api_key\|secret\|password\|token" *.js
 > The OWASP Top 10 is not just a list — it's your **hunting checklist**.  
 > Before testing any target, mentally run through all 10 categories.  
 > Most bounties come from A01, A05, and A07.
+
+---
+<div align="center">
+
+*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
+
+</div>

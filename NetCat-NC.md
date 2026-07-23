@@ -272,7 +272,7 @@ After a finding like "Redis exposed on internet" is reported and the client says
 ---
 <div align="center">
 
-*Part of [AppSec From The Trenches](../README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 
