@@ -118,10 +118,10 @@ I approach every engagement in three phases:
 
 ## 📄 License
 
-This content is licensed under **[CC BY 4.0](LICENSE.md)**. You're welcome to
-reuse or adapt any of these notes — just give clear attribution to
-**Dheeraj Kumar Jayaswal** with a link back to this repository. See
-[LICENSE.md](LICENSE.md) for the full terms.
+[![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE.md)
+[![Last Commit](https://img.shields.io/github/last-commit/dheeraj-jayaswal/AppSec-From-The-Trenches)](https://github.com/dheeraj-jayaswal/AppSec-From-The-Trenches/commits/main)
+
+⭐ If this helped you, consider starring the repo — it helps others find it too.
 
 ---
 
