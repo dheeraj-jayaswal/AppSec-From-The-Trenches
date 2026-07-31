@@ -533,7 +533,7 @@ The root cause is that MFA state is trusted from the client response rather than
 
 ---
 
-**Steps to Reproduce:**
+**Steps to Reproduce:** 
 
 1. Open Burp Suite and enable Proxy intercept
 2. Navigate to the application login page
