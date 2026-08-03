@@ -4,7 +4,7 @@
 >
 > **Category:** Reconnaissance Methodology — Enterprise Engagement Framework
 >
-> **Context:** This is my complete reconnaissance workflow for enterprise web application engagements — the systematic process I run in the first 3-4 hours of every assessment at Infosys before testing a single vulnerability. Recon in enterprise testing is fundamentally different from bug bounty hunting: the scope is defined and narrow, the environment is often internal, and the goal is not to find the most interesting target but to completely map a specific, agreed application. The depth and structure of recon determines the quality of everything that follows. 
+> **Context:** This is my complete reconnaissance workflow for enterprise web application engagements — the systematic process I run in the first 3-4 hours of every assessment before testing a single vulnerability. Recon in enterprise testing is fundamentally different from bug bounty hunting: the scope is defined and narrow, the environment is often internal, and the goal is not to find the most interesting target but to completely map a specific, agreed application. The depth and structure of recon determines the quality of everything that follows. 
 
 ---
 
