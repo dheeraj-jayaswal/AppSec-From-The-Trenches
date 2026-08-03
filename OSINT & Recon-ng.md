@@ -218,7 +218,7 @@ LinkedIn intelligence:
   → Identify key targets: IT staff, finance, C-suite, HR
   → Find current technology stack from job postings:
     "ASP.NET Core" in job ads → confirms tech stack
-    "Infosys" engagement experience → confirms tooling
+    "XYZ LTD" engagement experience → confirms tooling
     "Jenkins, JIRA, Confluence" → maps internal tools
   → Identify recent hires (less security awareness training)
 
