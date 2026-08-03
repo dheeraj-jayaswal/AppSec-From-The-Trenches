@@ -355,7 +355,7 @@ OR  → ||
 
 ## 📋 Enterprise Pentest Report Template
 
-This is the structure I use in actual client deliverables at Infosys. Every field matters.
+This is the structure I use in actual client deliverables. Every field matters.
 
 ---
 
