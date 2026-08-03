@@ -128,7 +128,7 @@ CompanyAdmin1
 Welcome1
 Welcome@1
 Welcome2024
-Infosys@123
+Information@123
 Password1
 Password@1
 Winter2024
