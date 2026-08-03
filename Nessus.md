@@ -4,7 +4,7 @@
 >
 > **Category:** Tool Mastery — Vulnerability Assessment Scanner
 >
-> **Context:** Nessus is the industry standard vulnerability scanner in enterprise environments — not because it replaces manual testing, but because it efficiently surfaces known CVEs, missing patches, and configuration weaknesses across large IP ranges. At Infosys, I use Nessus for network-layer vulnerability assessment within internal assessments, specifically to enumerate patching gaps and known service vulnerabilities that would take days to manually verify across a 200-host internal network.
+> **Context:** Nessus is the industry standard vulnerability scanner in enterprise environments — not because it replaces manual testing, but because it efficiently surfaces known CVEs, missing patches, and configuration weaknesses across large IP ranges. I use Nessus for network-layer vulnerability assessment within internal assessments, specifically to enumerate patching gaps and known service vulnerabilities that would take days to manually verify across a 200-host internal network.
 
 ---
 
