@@ -4,7 +4,7 @@
 >
 > **Category:** Professional Methodology — End-to-End Engagement Framework
 >
-> **Context:** This is the complete methodology I follow on every enterprise web application penetration test — from scope review through to report delivery. It reflects five years of engagements at Infosys across BFSI, healthcare, retail, and technology clients. The structure ensures consistent coverage, professional evidence collection, and reports that developers can act on.
+> **Context:** This is the complete methodology I follow on every enterprise web application penetration test — from scope review through to report delivery. It reflects five years of engagements across BFSI, healthcare, retail, and technology clients. The structure ensures consistent coverage, professional evidence collection, and reports that developers can act on.
 
 ---
 
