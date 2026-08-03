@@ -138,7 +138,6 @@ john --wordlist=rockyou.txt --rules=jumbo hashes.txt
 
 # Custom enterprise-targeted wordlist generation:
 cat > company_words.txt << 'EOF'
-Infosys
 Company
 Welcome
 Password
@@ -147,11 +146,12 @@ Summer
 Winter
 Spring
 Autumn
+Info
 EOF
 
 # Generate mutations from base words:
 john --wordlist=company_words.txt --rules --stdout > mutated_list.txt
-# Produces: Infosys1, Infosys!, Infosys@2024, infosys, INFOSYS...
+# Produces: Info1, Info!, Info@2024, info, INFO...
 
 # Use mutated list with hashcat for GPU speed:
 hashcat -a 0 -m 0 hashes.txt mutated_list.txt
