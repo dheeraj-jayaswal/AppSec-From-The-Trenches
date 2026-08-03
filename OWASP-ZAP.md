@@ -4,7 +4,7 @@
 >
 > **Category:** Tool Mastery — DevSecOps & CI/CD Security Testing
 >
-> **Context:** OWASP ZAP has a distinct role in my enterprise security work compared to Burp Suite. While Burp is my primary manual testing tool, ZAP is what I integrate into enterprise CI/CD pipelines for automated DAST. I have integrated ZAP into DevSecOps workflows at Infosys, configured it for automated pipeline scanning, and used it to reduce recurring vulnerabilities by 50% through continuous DAST in build pipelines. This write-up reflects that operational perspective.
+> **Context:** OWASP ZAP has a distinct role in my enterprise security work compared to Burp Suite. While Burp is my primary manual testing tool, ZAP is what I integrate into enterprise CI/CD pipelines for automated DAST. I have integrated ZAP into DevSecOps workflows, configured it for automated pipeline scanning, and used it to reduce recurring vulnerabilities by 50% through continuous DAST in build pipelines. This write-up reflects that operational perspective.
 
 ---
 
