@@ -14,7 +14,7 @@
 
 ## 👋 About Me
 
-I'm **Dheeraj Kumar Jayaswal** — a Senior Penetration Tester and Application Security Engineer with **15+ years in IT** and **5+ years focused entirely on offensive security**.
+I'm **Dheeraj Kumar Jayaswal** — a Senior Penetration Tester and Application Security Engineer with **15+ years in IT** and **6+ years focused entirely on offensive security**.
 
 What makes my perspective different: I started as a full-stack software developer. I've built enterprise applications in ASP.NET, designed SQL Server databases, and written the kind of code that attackers target. That developer background is my biggest advantage — I find vulnerabilities that pure security testers miss because I understand *why* the code was written the way it was, not just *that* it can be exploited.
 

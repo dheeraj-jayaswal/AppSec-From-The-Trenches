@@ -1,6 +1,6 @@
 # Cross-Site Scripting (XSS) — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Injection — OWASP A03:2021
 >
@@ -652,7 +652,7 @@ context.Response.Headers.Add("Content-Security-Policy",
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. The admin panel is the prize — always check if your XSS fires there.**
 Reflected XSS on a public search page is a medium finding. The identical XSS firing in an internal admin dashboard where agents have full account access is Critical. Before assessing severity, always answer: who else sees this content, and what access do they have?
@@ -684,7 +684,7 @@ The same input field can require completely different payloads depending on wher
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

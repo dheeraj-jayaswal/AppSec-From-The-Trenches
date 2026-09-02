@@ -1,6 +1,6 @@
 # SSRF — Server-Side Request Forgery — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** SSRF — OWASP A10:2021
 >
@@ -440,7 +440,7 @@ private bool IsAllowedUrl(string url)
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. Cloud metadata SSRF is always the first target on AWS/Azure/GCP.**
 The moment I confirm an application fetches user-supplied URLs server-side, I test `169.254.169.254`. On IMDSv1 (the legacy default), this returns credentials with zero additional steps. Even with IMDSv2 enforced, the metadata endpoint itself confirms the application is cloud-hosted and that internal services are reachable.
@@ -470,7 +470,7 @@ An allowlist that checks the URL hostname against a whitelist before fetching is
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

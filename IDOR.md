@@ -1,6 +1,6 @@
 # IDOR — Insecure Direct Object Reference — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Broken Access Control — OWASP A01:2021
 >
@@ -14,7 +14,7 @@
 
 IDOR is fundamentally a trust problem. The application trusts the user's claimed object reference — an ID, a filename, a token — without verifying that the authenticated user is actually authorised to access that specific object.
 
-In five years of enterprise testing, I have found IDOR in every category of application: HR systems exposing employee salary data, healthcare applications exposing patient records, financial platforms exposing account statements, and internal admin tools allowing any employee to modify any other employee's records. The common thread is always the same: the developer validated that the user was authenticated, but not whether the authenticated user owned the specific resource they were requesting.
+In six years of enterprise testing, I have found IDOR in every category of application: HR systems exposing employee salary data, healthcare applications exposing patient records, financial platforms exposing account statements, and internal admin tools allowing any employee to modify any other employee's records. The common thread is always the same: the developer validated that the user was authenticated, but not whether the authenticated user owned the specific resource they were requesting.
 
 The most damaging IDOR findings I have documented combined three elements: a sensitive data field (PII, financial data, credentials), a predictable or discoverable object reference (sequential integer IDs), and an unauthenticated or low-privilege access path. That combination means every record in the system is accessible to every attacker who creates one account.
 
@@ -501,7 +501,7 @@ public async Task<IActionResult> GetEmployee(int id)
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. Authentication is not authorisation — enterprise developers confuse these constantly.**
 Checking that the user is logged in is not the same as checking that the user owns the object they are requesting. I have seen this pattern fail in every enterprise engagement — the login check is always present, the ownership check is frequently absent. These are two separate problems that require two separate checks in every endpoint handler.
@@ -531,7 +531,7 @@ IDOR exposing a username is low severity. IDOR exposing salary, national ID, or 
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

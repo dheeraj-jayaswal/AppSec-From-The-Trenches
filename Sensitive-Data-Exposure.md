@@ -1,6 +1,6 @@
 # Sensitive Data Exposure — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Cryptographic Failures & Data Exposure — OWASP A02:2021
 >
@@ -14,7 +14,7 @@
 
 Sensitive data exposure rarely requires a sophisticated attack. You do not need to chain exploits or bypass security controls. You need to look in places that developers forgot to think about — the JavaScript bundle that went to production with debug keys still in it, the API response that returns 47 fields when the UI only displays 6, the `.env` file that was committed to a git repository 18 months ago and nobody noticed.
 
-In five years of enterprise penetration testing, I have found credentials in JavaScript source maps, PII in API responses that the frontend never rendered, AWS keys in mobile app bundles, full stack traces leaking database schemas in production error pages, and backup `.sql` files sitting in the web root.
+In six years of enterprise penetration testing, I have found credentials in JavaScript source maps, PII in API responses that the frontend never rendered, AWS keys in mobile app bundles, full stack traces leaking database schemas in production error pages, and backup `.sql` files sitting in the web root.
 
 This document covers how to systematically find all of it.
 
@@ -607,7 +607,7 @@ public async Task<IActionResult> GetProfile(int id)
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. API responses are the biggest source of data exposure in enterprise apps.**
 Developers build rich domain models in the backend and serialise them directly into API responses without thinking about what should and should not be visible. Always compare what the UI shows against what the raw JSON response contains. The gap is where the finding lives.
@@ -638,7 +638,7 @@ Data exposure on its own is high severity. Data exposure + IDOR = critical, beca
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

@@ -1,6 +1,6 @@
 # Broken Authentication & Session Management — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Authentication Failures — OWASP A07:2021
 >
@@ -639,7 +639,7 @@ public class MfaRequiredMiddleware
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. Consistency gaps are where auth bugs live.**
 Enterprise applications grow over years with different teams building different features. The main web login may be hardened. The mobile API endpoint added in year 3 often is not. Test every auth endpoint in the application — they do not all share the same controls.
@@ -670,7 +670,7 @@ A username enumeration finding is low severity in isolation. Username enumeratio
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

@@ -1,10 +1,10 @@
 # Enterprise Web Application Penetration Testing Methodology
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Professional Methodology — End-to-End Engagement Framework
 >
-> **Context:** This is the complete methodology I follow on every enterprise web application penetration test — from scope review through to report delivery. It reflects five years of engagements across BFSI, healthcare, retail, and technology clients. The structure ensures consistent coverage, professional evidence collection, and reports that developers can act on.
+> **Context:** This is the complete methodology I follow on every enterprise web application penetration test — from scope review through to report delivery. It reflects six years of engagements across BFSI, healthcare, retail, and technology clients. The structure ensures consistent coverage, professional evidence collection, and reports that developers can act on.
 
 ---
 
@@ -344,7 +344,7 @@ Day 4 (final day / report day):
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Engagements
+## 🧭 Key Takeaways From 6+ Years of Enterprise Engagements
 
 **1. Methodology is the difference between a good engagement and a great one.**
 The best vulnerability you find on day 3 is worth nothing if you missed a Critical on day 1 because you were not systematic. The methodology ensures that access control testing happens before injection testing — because an IDOR that exposes credentials changes how you approach every subsequent test.
@@ -372,7 +372,7 @@ A pentest report without actionable remediation is just a list of problems. The 
 ---
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

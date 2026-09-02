@@ -1,6 +1,6 @@
 # SQL Injection — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Injection — OWASP A03:2021 | Previously A1 for 10 consecutive years
 >
@@ -12,7 +12,7 @@
 
 ## 🧠 Why This Write-Up Exists
 
-I've been breaking enterprise applications for over 5 years at Infosys. SQL Injection has appeared in nearly every engagement — not always in obvious login forms, but buried in API endpoints, reporting modules, admin panels, and internal tools that developers assumed were "safe" because they weren't public-facing.
+I've been breaking enterprise applications for over 6 years at Infosys. SQL Injection has appeared in nearly every engagement — not always in obvious login forms, but buried in API endpoints, reporting modules, admin panels, and internal tools that developers assumed were "safe" because they weren't public-facing.
 
 This document is not a beginner's introduction. It is the field notes I use during real engagements — the techniques, payloads, thought process, and reporting structure I apply against enterprise web applications and APIs every day.
 
@@ -463,7 +463,7 @@ Sharpen the manual skills before relying on tools:
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. The obvious places are already fixed.**
 If it's a public-facing login form, the developer has probably already read the OWASP guide. Spend your time on internal APIs, admin panels, reporting modules, and integrations.
@@ -493,7 +493,7 @@ I spend as much time advising on parameterised queries and ORM patterns as I do 
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

@@ -1,6 +1,6 @@
 # Security Misconfiguration — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Security Misconfiguration — OWASP A05:2021
 >
@@ -123,7 +123,7 @@ In Burp Suite:
   Look for: different response length, 302 redirect, "Welcome" in response
 ```
 
-> **Enterprise context:** I found a Tomcat Manager instance at `/manager/html` on an enterprise Java application server with credentials `tomcat:tomcat`. This gave direct WAR file deployment capability — meaning I could deploy a web shell to the server and achieve full remote code execution. The Tomcat instance had been running since the initial application deployment five years earlier and nobody had changed the default credentials.
+> **Enterprise context:** I found a Tomcat Manager instance at `/manager/html` on an enterprise Java application server with credentials `tomcat:tomcat`. This gave direct WAR file deployment capability — meaning I could deploy a web shell to the server and achieve full remote code execution. The Tomcat instance had been running since the initial application deployment six years earlier and nobody had changed the default credentials.
 
 ---
 
@@ -570,7 +570,7 @@ management.server.port=8081           # separate management port
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. The first 15 minutes of misconfiguration recon can hand you Critical findings.**
 Before I test a single injection point or authentication bypass, I run my standard misconfiguration probe list. In multiple engagements, this 15-minute sequence has returned Critical findings — credentials in a `.env` file, an Actuator endpoint leaking database passwords, a `.git/config` file exposing the internal repository URL. The vulnerability is already there before I start; I just need to look.
@@ -601,7 +601,7 @@ When a misconfiguration exposes credentials — a `.env` file, an Actuator env d
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 
