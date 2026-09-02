@@ -1,6 +1,6 @@
 # cURL — Enterprise Penetration Testing Usage Guide
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Tool Mastery — HTTP Testing & API Interaction
 >
@@ -270,7 +270,7 @@ Browsers add the Origin header automatically and handle CORS silently. cURL lets
 ---
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

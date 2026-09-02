@@ -1,6 +1,6 @@
 # Insecure Deserialization — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Software and Data Integrity Failures — OWASP A08:2021
 >
@@ -463,7 +463,7 @@ ois.setObjectInputFilter(info -> {
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. Recognising the data format is the entire first step.**
 Deserialization testing starts with one question: does any user-controlled input contain serialized data? If you can answer that question confidently across every request in the application — by knowing what rO0, O:, __VIEWSTATE, and \x80\x04 look like — you have the hardest skill required. Everything else follows a methodology.
@@ -495,7 +495,7 @@ Deserialization vulnerabilities cannot be fixed with input sanitisation or a WAF
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

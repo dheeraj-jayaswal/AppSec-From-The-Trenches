@@ -1,6 +1,6 @@
 # CSRF — Cross-Site Request Forgery — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Broken Access Control — OWASP A01:2021
 >
@@ -528,7 +528,7 @@ builder.Services.ConfigureApplicationCookie(options => {
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. Internal applications are the richest CSRF target.**
 External applications have mostly adopted CSRF tokens under pressure from security reviews and bug bounty reports. Internal HR portals, IT management tools, and finance dashboards — built for internal use and never reviewed — consistently lack CSRF protection. These are always my first targets.
@@ -558,7 +558,7 @@ A CSRF vulnerability on its own requires social engineering. Combined with any X
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

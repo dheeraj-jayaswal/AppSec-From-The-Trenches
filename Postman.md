@@ -1,12 +1,12 @@
 # API Security Testing — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** API Security — OWASP API Security Top 10
 >
 > **Tools:** Burp Suite, Postman, ffuf, Nuclei
 >
-> **Real-world impact:** API security is where I find the most high-severity findings in modern enterprise applications. Every enterprise application built in the last five years is API-first — the frontend is a JavaScript shell, and all the real logic, data, and access control lives in the API. The shift to microservices means there are dozens of internal APIs, many of which were built by different teams with different security standards, and few of which received the same security review attention as the user-facing application.
+> **Real-world impact:** API security is where I find the most high-severity findings in modern enterprise applications. Every enterprise application built in the last six years is API-first — the frontend is a JavaScript shell, and all the real logic, data, and access control lives in the API. The shift to microservices means there are dozens of internal APIs, many of which were built by different teams with different security standards, and few of which received the same security review attention as the user-facing application.
 
 ---
 
@@ -382,7 +382,7 @@ Introspection gives the attacker the complete API schema — every query, mutati
 ---
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

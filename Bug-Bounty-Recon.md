@@ -1,6 +1,6 @@
 # Enterprise Web Application Reconnaissance Workflow
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Reconnaissance Methodology — Enterprise Engagement Framework
 >
@@ -601,7 +601,7 @@ ANALYSIS (before testing begins):
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. Passive recon before active recon — always.**
 Passive sources (crt.sh, GitHub, Shodan, Google) leave no trace and often surface the most impactful findings. Multiple Critical findings in my career were discovered passively — credentials in GitHub commits, exposed Jenkins servers in certificate transparency, S3 bucket names in JS bundles. Start here before touching the target.
@@ -632,7 +632,7 @@ A professional report notes that /.git/ returned 404, that no GitHub leaks were 
 
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

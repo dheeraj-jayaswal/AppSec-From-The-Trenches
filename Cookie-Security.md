@@ -1,12 +1,12 @@
 # Cookie Security — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Identification and Authentication Failures — OWASP A07:2021
 >
 > **Severity:** Low to High — missing cookie attributes directly enable session hijacking and CSRF
 >
-> **Real-world impact:** Cookie security attributes are simple to implement and simple to miss. In five years of enterprise testing, I have found missing `HttpOnly` flags that enable XSS-to-ATO chains, missing `Secure` flags transmitting session tokens over HTTP, and missing `SameSite` attributes enabling CSRF on every state-changing endpoint. These are configuration issues that take minutes to fix and that developers consistently overlook because the application works correctly without them.
+> **Real-world impact:** Cookie security attributes are simple to implement and simple to miss. In six years of enterprise testing, I have found missing `HttpOnly` flags that enable XSS-to-ATO chains, missing `Secure` flags transmitting session tokens over HTTP, and missing `SameSite` attributes enabling CSRF on every state-changing endpoint. These are configuration issues that take minutes to fix and that developers consistently overlook because the application works correctly without them.
 
 ---
 
@@ -220,7 +220,7 @@ A session cookie with a 2-year expiry suggests the developers prioritised conven
 ---
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

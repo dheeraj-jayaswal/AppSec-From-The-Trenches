@@ -1,6 +1,6 @@
 # Directory & Content Enumeration — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** Reconnaissance & Attack Surface Discovery
 >
@@ -381,7 +381,7 @@ No authentication prompt presented.
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise Testing
 
 **1. JS source mining finds more than directory brute forcing in modern apps.**
 Modern enterprise SPAs have few traditional paths to enumerate — they are all JavaScript-driven. The endpoint list is in the JavaScript bundle. Always run JS Miner in Burp before launching directory enumeration. The endpoints you find in JS are real, verified paths — not guesses from a wordlist.
@@ -409,7 +409,7 @@ The enumeration output list does not go in the report. What goes in the report a
 ---
 <div align="center">
 
-*Part of [AppSec From The Trenches](README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 
