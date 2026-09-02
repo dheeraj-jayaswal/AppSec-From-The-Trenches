@@ -12,16 +12,6 @@
 
 ---
 
-## 👋 About Me
-
-I'm **Dheeraj Kumar Jayaswal** — a Senior Penetration Tester and Application Security Engineer with **15+ years in IT** and **6+ years focused entirely on offensive security**.
-
-What makes my perspective different: I started as a full-stack software developer. I've built enterprise applications in ASP.NET, designed SQL Server databases, and written the kind of code that attackers target. That developer background is my biggest advantage — I find vulnerabilities that pure security testers miss because I understand *why* the code was written the way it was, not just *that* it can be exploited.
-
-Currently at **Infosys Limited** as Technology Lead – Offensive Security.
-
----
-
 ## 📌 What This Repository Actually Is
 
 This repo is my **practical tools and methodology reference** — how I actually use the tools that show up in every enterprise engagement, plus the overarching testing methodology that ties them together. It's the repo I use myself as a quick-reference during an engagement, not a theory guide.
@@ -30,16 +20,24 @@ It also includes a set of **short vulnerability quick-reference notes** — but 
 
 ---
 
+---
+
+
 ## 🧭 How This Fits With My Other Repos
 
-| Repo | What it's for |
+| Repository | What's in it |
 |---|---|
-| **AppSec-From-The-Trenches** *(this repo)* | Tool usage guides, pentest methodology, and short vulnerability quick-reference notes |
-| [From-Dev-To-Attacker](https://github.com/dheeraj-jayaswal/From-Dev-To-Attacker) | Full-depth original write-ups on *why* vulnerabilities exist, from a developer's lens, with enterprise domain-impact framing |
-| [API-From-The-Trenches](https://github.com/dheeraj-jayaswal/API-From-The-Trenches) | Deep dive specifically into API security — OWASP API Top 10, GraphQL, BOLA, testing methodology |
-| [Bug-Bounty-Hunting-Companion](https://github.com/dheeraj-jayaswal/Bug-Bounty-Hunting-Companion) | Real disclosed HackerOne reports turned into reproducible checklists |
+| **[AppSec-From-The-Trenches](https://github.com/dheeraj-jayaswal/AppSec-From-The-Trenches)** *(this repo)* | Pentest tools & methodology reference — how I actually use Burp Suite, Nmap, Metasploit, Hydra, Hashcat, and more, plus my WAPT methodology |
+| [From-Dev-To-Attacker](https://github.com/dheeraj-jayaswal/From-Dev-To-Attacker) | My flagship field journal — 67 original write-ups on vulnerability patterns, written from a developer's lens, with enterprise domain-impact framing across Income Tax, Banking, Retail, E-commerce, Freight Logistics, and Education |
+| [CICD-Goat-Vapt-Writeup](https://github.com/dheeraj-jayaswal/CICD-Goat-Vapt-Writeup) | Full VAPT writeup against OWASP CICD-Goat — 16 findings including CVE-2024-23897, mapped to the OWASP Top 10 CI/CD Security Risks, with PoCs and interview-ready summaries |
+| [From-Pentester-To-Red-Teamer](https://github.com/dheeraj-jayaswal/From-Pentester-To-Red-Teamer) | My structured 24-month roadmap for transitioning from Web/API pentesting into Red Teaming — phases, labs, certifications, and progress tracked openly as I work through it |
+| [API-From-The-Trenches](https://github.com/dheeraj-jayaswal/API-From-The-Trenches) | Deep-dive API security series — OWASP API Top 10 coverage, BOLA, JWT attacks, GraphQL testing, full methodology |
+| [Bug-Bounty-Hunting-Companion](https://github.com/dheeraj-jayaswal/Bug-Bounty-Hunting-Companion) | Real, publicly-disclosed bug bounty reports broken into reproducible checklists |
+| [DarkWeb-From-The-Trenches](https://github.com/dheeraj-jayaswal/DarkWeb-From-The-Trenches) | Threat intelligence & dark web OSINT methodology — credential leak monitoring, ransomware tracking, pre-engagement TI |
+| [.pcap-Arsenal](https://github.com/dheeraj-jayaswal/.pcap-Arsenal) | Packet captures organized by protocol, for Web/API/Network-layer analysis and learning |
 
 ---
+
 
 ## 🛠️ Tool Usage Guides
 
@@ -88,7 +86,10 @@ Short-form notes for fast recall during an engagement. For the full write-up on 
 
 ---
 
-## 🧠 My Testing Philosophy
+---
+
+
+## 🧠 Testing Philosophy
 
 > *"The best penetration testers think like developers first and attackers second. If you understand why code was written a certain way, you'll always find more than a scanner ever will."*
 
@@ -102,7 +103,20 @@ I approach every engagement in three phases:
 
 ---
 
-## 🏅 Certifications & Background
+
+## 👤 About Me
+
+- **Name** — Dheeraj Kumar Jayaswal
+- **Role** — Technology Lead – Offensive Security, Infosys Limited
+- **Focus** — Web Application & API Penetration Testing
+- **Experience** — 15+ years in IT · 6+ years in Offensive Security
+- **Edge** — Former full-stack developer (ASP.NET / SQL Server) — I think like a developer, attack like a hacker
+- **Domains** — Income Tax · Banking · Retail · E-commerce · Freight Logistics · Education
+
+---
+
+
+## 🏅 Certifications
 
 | Certification | Issuer | Status |
 |---|---|---|
@@ -110,14 +124,12 @@ I approach every engagement in three phases:
 | AWS Certified Solutions Architect – Associate | Amazon Web Services | ✅ 2022 |
 | AWS Certified Cloud Practitioner | Amazon Web Services | ✅ 2022 |
 | Executive Certificate in Cyber Security | IIT Kanpur | ✅ 2026 |
-| OSWE — OffSec Web Expert (OSCE3 track) | 🔄 In Progress |
+| OSWE — OffSec Web Expert (OSCE3 track) | OffSec | 🔄 In Progress |
 
 **Future direction — Red Teaming:** OSCP → CRTO → OSEP, CRTP, CRTL, CRTE
 
-
-**Domain experience:** Income Tax · Banking · Retail · E-commerce · Freight Logistics · Education
-
 ---
+
 
 ## 📄 License
 
@@ -128,11 +140,13 @@ I approach every engagement in three phases:
 
 ---
 
-## 🤝 Connect With Me
+
+## 🤝 Connect
 
 [LinkedIn](https://linkedin.com/in/dheerajkumarjayaswal) — open to consulting, collaboration, and security discussions.
 
 ---
+
 
 <div align="center">
 
