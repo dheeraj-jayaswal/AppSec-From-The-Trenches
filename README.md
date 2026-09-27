@@ -4,7 +4,7 @@
 ### Pentest Tools & Methodology Reference
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
-[![Location](https://img.shields.io/badge/Location-Indore%2C%20India%20%28Remote%29-FF6B6B?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/dheeraj-jayaswal)
+[![Location](https://img.shields.io/badge/Location-Dublin%2C%20Ireland-FF6B6B?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/dheeraj-jayaswal)
 [![Experience](https://img.shields.io/badge/Experience-16%2B%20Years%20IT-2ECC71?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
 [![Cert](https://img.shields.io/badge/CEH--EC--Council%20Certified-darkgreen?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
 
@@ -106,12 +106,15 @@ I approach every engagement in three phases:
 
 ## 👤 About Me
 
-- **Name** — Dheeraj Kumar Jayaswal
-- **Role** — Principal Penetration Tester, VikingCloud (previously Technology Lead – Offensive Security, Infosys Limited)
-- **Focus** — Web Application & API Penetration Testing
-- **Experience** — 16+ years in IT · 9+ years in Offensive Security
-- **Edge** — Former full-stack developer (ASP.NET / SQL Server) — I think like a developer, attack like a hacker
-- **Domains** — Income Tax · Banking · Retail · E-commerce · Freight Logistics · Education
+- 👤 **Name** — Dheeraj Kumar Jayaswal
+- 🌍 **Location** — Dublin, County Dublin, Ireland
+- 💼 **Role** — Principal Penetration Testing Consultant | VikingCloud (previously Technology Lead – Offensive Security, Infosys Limited)
+- 🎯 **Primary Focus** — Web Application & API Security — Offensive Security Consulting
+- 🏆 **Experience** — 16+ Years in IT | 9+ Years in Offensive Security
+- 🔎 **Edge** — Started as a full-stack developer (ASP.NET / SQL Server) — I think like a developer and attack like a hacker
+- 🎓 **Pursuing** — OSWE — OffSec Web Expert (OSCE3 track)
+- 🏢 **Domains** — Income Tax · Banking · Retail · E-commerce · Freight Logistics · Education
+- 📝 **Sharing** — Enterprise pentest field notes, methodology, and practical write-ups from real-world engagements
 
 ---
 
